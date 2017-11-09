@@ -11,12 +11,12 @@ $MAILUP_CAMPAIGN_CODE = 'Code verify';
 $sms = new SMS($MAILUP_LIST_ID, $MAILUP_LIST_GUID, $MAILUP_CAMPAIGN_CODE);
 
 ```
-Logging with list secret Or
+Logging with list secret 
 ```  						   
 $sms->logOnWithToken('m00000', 'aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeeee');
 ```
 
-Log On With Password and username
+or Log On With Password and username
 
 ```
 $sms->logOnWithPassword('m00000', 'password');
